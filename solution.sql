@@ -39,16 +39,6 @@ INNER JOIN Matches m ON b.match_id = m.match_id;
 
 /*
 Query 5: Display a comprehensive list of all users and their booking IDs, ensuring that fans who have never bought a ticket are still listed.
-Concepts used: LEFT JOIN / Full JOIN
-Sample Output:
-
-user_id	full_name	booking_id
-1	Tanvir Rahman	501
-1	Tanvir Rahman	502
-2	Asif Haque	503
-2	Asif Haque	504
-3	Sajjad Rahman	505
-4	Jannat Ara	NULL
 */
 SELECT 
     u.user_id, 
